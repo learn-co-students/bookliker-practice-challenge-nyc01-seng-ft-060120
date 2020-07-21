@@ -26,9 +26,7 @@ const renderBookList = (book) => {
 }
 
 const displayBookBtnListener = (bookTitle, book) => {
-  bookTitle.addEventListener('click', () => {
-    displayBook(book)
-  })
+  bookTitle.addEventListener('click', () => displayBook(book))
 }
 
 const displayBook = (book) => {
@@ -64,11 +62,10 @@ const renderUser = (user) => {
 const renderLikeBtn = (book) => {
   const likeBtn = document.createElement('button')
   showPanel.append(likeBtn)
-  if (!!book.users.find((user) => user.id === currentUser.id)) {
-    likeBtn.innerText = "UNLIKE";
-  } else {
-    likeBtn.innerText = 'LIKE'
-  }
+
+  !!book.users.find((user) => user.id === currentUser.id) ?
+    likeBtn.innerText = "UNLIKE" : likeBtn.innerText = 'LIKE'
+  
   likeBtn.dataset.bookId = book.id
   likeBtnHandler(likeBtn, book.users)
 }
