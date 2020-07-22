@@ -15,6 +15,14 @@
         {
           "id": 8,
           "username": "maverick"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
@@ -59,10 +67,26 @@
         {
           "id": 9,
           "username": "alex"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "1": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 4,
       "title": "Angela Davis",
       "description": "Her own powerful story up to 1972, told with warmth, brilliance, humor and conviction. With an introduction by the author.",
@@ -116,10 +140,26 @@
         {
           "id": 4,
           "username": "ann"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 3,
+        "username": "marvin"
+      },
+      "1": {
+        "id": 5,
+        "username": "feels-like-summer"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 7,
       "title": "The Collected Schizophrenias",
       "subtitle": "",
@@ -178,10 +218,26 @@
         {
           "id": 5,
           "username": "feels-like-summer"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     },
     {
+      "0": {
+        "id": 8,
+        "username": "maverick"
+      },
+      "1": {
+        "id": 10,
+        "username": "macejkovic"
+      },
+      "2": {
+        "id": 1,
+        "username": "pouros"
+      },
       "id": 10,
       "title": "An American Marriage",
       "subtitle": "",
@@ -214,6 +270,10 @@
         {
           "id": 10,
           "username": "macejkovic"
+        },
+        {
+          "id": 1,
+          "username": "pouros"
         }
       ]
     }
