@@ -5,9 +5,7 @@ let currentUser = {'id':1, "username":"pouros"}
 const fetchBooks = () => {
   fetch(books_url)
   .then(resp => resp.json())
-  .then(books => {
-    renderBooks(books)
-  })
+  .then(books => renderBooks(books))
 } 
 
 const renderBooks = (books) => {
@@ -76,7 +74,7 @@ const likeBtnHandler = (button, users) => {
 
 const addUser = (button, users) => {
   if (button.innerText === "UNLIKE") {
-    users = users.filter(user => user.id != 1)
+    users = users.filter(user => user.id != currentUser.id)
     fetch(books_url + `${button.dataset.bookId}`, {
       method: "PATCH",
       headers: {
